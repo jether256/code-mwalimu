@@ -197,6 +197,7 @@ body{
 	
 	flex: 6;
 	margin: 30px 0px;
+	background-color: #fdfeff;
 
 }
 
@@ -211,9 +212,11 @@ padding: 20px;
         border: 1px solid lightgrey;
         
          border-radius: 10px;
-         -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
-        -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
-        box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+       -webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    border-radius: 20px;
+    background-color: #;
 }
 
 .main .center .container .post{
@@ -254,16 +257,139 @@ padding: 20px;
 }
 
 
+.main .center .container #modalBox{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	position: fixed;
+	top:50% ;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	height: 50vh;
+	  border: 1px solid lightgray;
+	width: 80%;
+	max-width: 400px;
+	background-color:white;
+	padding: 20px;
+	border-radius:5px;
+	overflow: hidden;
+	 -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+        -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+        box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+display: none;
+
+}
+
+.main .center .container #modalBox .close{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background-color: lightgrey;
+	padding: 3px;
+	color: white;
+	border-radius: 50%;
+	top:15px;
+	right: 15px;
+	cursor: pointer;
+}
+
+.main .center .container #modalBox span{
+font-size: 20px;
+color:lightgray;
+font-weight:500 ;
+}
+
+.main .center .container #modalBox form{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.main .center .container #modalBox form textarea {
+	display: flex;
+	align-items: center;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+	  resize: vertical;
+	  min-height: 40px;
+}
+
+
+.main .center .container #modalBox form button{
+	display: flex;
+	border-radius: 2px;
+	align-items: center;
+	justify-content: center;
+	background-color:#5271ff ;
+	padding: 10px;
+	width: 50%;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
 
 
 
+.main .center .posts .container{
+	margin-top: 20px;
+	padding: 20px;
+}
 
+.main .center .posts .container .user{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.main .center .posts .container .user .userInfo{
+	display: flex;
+	gap: 20px;
+}
+.main .center .posts .container .user .userInfo img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	object-fit: cover;
+}
 
+.main .center .posts .container .user .userInfo .details{
+	display: flex;
+	flex-direction: column;
+}
 
+.main .center .posts .container .user .userInfo .details .name{
+	font-weight: 500;
 
+}
 
+.main .center .posts .container .user .userInfo .details .date{
+	font-size: 12px;
 
+}
 
+.main .center .posts .container .content{
+	margin:  20px 0px;
+}
+
+.main .center .posts .container .content img{
+	width: 100%;
+	max-height: 500px;
+	object-fit: cover;
+	margin-top: 20px;
+}
+
+.main .center .posts .container .info{
+	display: flex;
+	align-items: center;
+	20px;
+}
+
+.main .center .posts .container .info{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	cursor: pointer;
+	font-size: 14px;
+}
 
 
 /*right main*/
@@ -274,6 +400,8 @@ padding: 20px;
     top: 70px;
     height: calc(100vh - 70px);
     overflow: scroll;
+   margin: 30px 0px;
+	background-color: #fdfeff;
  &::-webkit-scrollbar {
       display: none;
     }
