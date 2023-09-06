@@ -1,0 +1,117 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'poppins',sans-serif;
+}
+
+
+
+.login{
+
+height: 100vh;
+background-color:rgba(193, 190, 255);
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.login .card{
+	width: 50%;
+	display: flex;
+	background-color: white;
+	border-radius: 10px;
+	min-height: 600px;
+	overflow: hidden;
+
+}
+
+.login .card .left{
+	flex: 1;
+	background:linear-gradient(rgba(39, 11, 96, 0.5),rgba(39, 11, 96, 0.5)), url("https://www.itnewsafrica.com/wp-content/uploads/2021/03/Data-Coding-Hacking-Women-696x458.png");
+	background-size: cover;
+	padding: 50px;
+	color: white;
+	gap: 30px;
+	flex-direction: column;
+
+
+}
+
+.login .card .left h1{
+	font-size: 100px;
+	line-height: 100px;
+
+}
+
+
+
+.login .card .left p{
+	font-size: 20px;
+
+}
+
+.login .card .left a{
+	color: white;
+
+}
+
+.login .card .left span{
+	font-size: 14px;
+
+
+}
+
+.login .card .left button{
+width: 50%;
+background-color: white;
+color: rebeccapurple;
+padding: 10px;
+border: none;
+font-weight: bold;
+cursor: pointer;
+}
+
+
+
+
+ .login .card .right{
+		flex: 1;
+		display: flex;
+		padding: 50px;
+		flex-direction: column;
+		justify-content: center;
+		gap: 50px;
+
+}
+
+.login .card .right h1{
+	color: #555;
+
+}
+
+.login .card .right form{
+	display: flex;
+	flex-direction: column;
+	gap:30px;
+
+}
+
+.card .right input{
+	border: none;
+	border-radius: 4px;
+	border-bottom: 1px solid lightgrey;
+	padding: 15px 10px;
+	
+}
+
+.card .right button{
+	width: 50%;
+	border: none;
+	border-radius: 4px;
+	padding: 10px;
+	background-color: #938eef;
+	color: white;
+	
+}
