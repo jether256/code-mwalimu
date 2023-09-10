@@ -1,0 +1,157 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'poppins',sans-serif;
+/*	background:#efefef;*/
+ &::-webkit-scrollbar {
+      display: none;
+    }
+
+}
+
+
+
+#2E2E2E 
+
+.code-main{
+	
+	display: flex;
+/*	align-items: center;*/
+	flex-direction: column;
+	background-color:black;
+
+}
+
+.code-main .code{
+	display: flex;
+	flex: 3;
+	align-items: center;
+	background-color:black;
+
+
+/*	flex-direction: column;*/
+}
+
+.code-main .code .html{
+	display: flex;
+	flex: 1;
+   height:500px;
+   border-radius: 3px;
+    margin-top: 0;
+	background-color:#2E2E2E ;
+}
+
+
+
+.code-main .code .html span img{
+  width: 20px;
+ height: 20px;
+}
+
+.code-main .code .css span img{
+ width: 20px;
+ height: 20px;
+}
+
+.code-main .code .js span img{
+ width: 20px;
+ height: 20px;
+}
+
+
+.code-main .code .html textarea{
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: black;
+	color: green;
+	min-height: 250px;
+	  resize: none;
+	overflow: scroll;
+	font-size: x-large;
+	width: 100%;
+	 &::-webkit-scrollbar {
+      display: none;
+    }
+}
+
+
+.code-main .code .css{
+	display: flex;
+/*	margin: 10px;*/
+	flex: 1;
+	   height:500px;
+	   font-size: x-large;
+    margin-top: 0;
+	background-color:#2E2E2E ;
+}
+
+
+.code-main .code .css textarea{
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: black;
+	color: green;
+	min-height: 250px;
+	max-height:500px ;
+	  resize: none;
+	overflow: scroll;
+	font-size: x-large;
+	width: 100%;
+	 &::-webkit-scrollbar {
+      display: none;
+    }
+}
+
+
+
+
+
+.code-main .code .js{
+	display: flex;
+	flex: 1;
+height:500px;
+    margin-top: 0;
+	background-color:#2E2E2E;
+}
+
+
+.code-main .code .js textarea{
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: black;
+	color: green;
+	min-height: 250px;
+	width: 100%;
+	  resize: none;
+	overflow: scroll;
+		font-size: x-large;
+		 &::-webkit-scrollbar {
+      display: none;
+
+    }
+}
+
+	
+
+.code-main .output{
+background-color: #2E2E2E;
+width: 100vw;
+min-height: 240px;
+	flex: 2;
+
+}
+
+.code-main .output iframe{
+	width: 100vw;
+background-color: white;
+	border: none;
+	margin: 20px;
+	color: green;
+	font-size: x-large;
+	overflow: scroll;
+	min-height: 240px;
+}
+

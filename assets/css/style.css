@@ -503,3 +503,32 @@ top: 0;
 
 
 /*end right main*/
+
+
+
+
+/*code editor start*/
+
+/*.container{
+	display: flex;
+	background-color: #333642;
+}
+
+#html{
+		flex: 4;
+		background-color:green;
+}
+
+#css{
+	flex:4
+	background-color: blue;
+
+}
+
+#js{
+	flex: 4;
+	background-color: red;
+
+}*/
+
+/*code editor end */
